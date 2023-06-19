@@ -1,9 +1,10 @@
+import Navbar from "./Navbar.js"
 
 const Layout = ({ children }) => {
   return (
     <div>
       <header>
-        <h1>My Landing Page</h1>
+        <Navbar />
       </header>
       <main>{children}</main>
       <footer>
